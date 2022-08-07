@@ -1,32 +1,22 @@
 # Setup v2 GO Relayer between Stride and GAIA
 # install GO
-sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
-ver="1.18.3"
-cd $HOME
-wget "[https://golang.org/dl/go$ver.linux-amd64.tar.gz](https://golang.org/dl/go$ver.linux-amd64.tar.gz)"
-sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
-rm "go$ver.linux-amd64.tar.gz"
-echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile
-source ~/.bash_profile
-go version
 
- sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
- ver="1.18.3"
- cd $HOME
- wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
- sudo rm -rf /usr/local/go
- sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
- rm "go$ver.linux-amd64.tar.gz"
- echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile
- source ~/.bash_profile
- go version
+    sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
+    ver="1.18.3"
+    cd $HOME
+    wget "[https://golang.org/dl/go$ver.linux-amd64.tar.gz](https://golang.org/dl/go$ver.linux-amd64.tar.gz)"
+    sudo rm -rf /usr/local/go
+    sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+    rm "go$ver.linux-amd64.tar.gz"
+    echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile
+    source ~/.bash_profile
+    go version
 
 # install RUST
 
-curl [https://sh.rustup.rs/](https://sh.rustup.rs/) -sSf | sh
-source $HOME/.cargo/env
-rustc --version
+     curl [https://sh.rustup.rs/](https://sh.rustup.rs/) -sSf | sh
+     source $HOME/.cargo/env
+     rustc --version
 
 # Set indexer to kv on each chain
 

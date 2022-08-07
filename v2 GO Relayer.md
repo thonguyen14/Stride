@@ -46,11 +46,11 @@ Restart nodes after changing in step 3 & 4
 
 # Set variable
       SRC_CHAIN="STRIDE-TESTNET-2"
-      SRC_KEY="stride-rly"
+      SRC_KEY="Name-of-your-key-Stride"
       SRC_MNEMONIC_PHRASE="24 PHRASE"
 
       DST_CHAIN="GAIA"
-      DST_KEY="gaia-rly"
+      DST_KEY="Name-of-your-key-Gaia"
       DST_MNEMONIC_PHRASE="24 PHRASE"
 
 # Make config data
@@ -61,7 +61,7 @@ Restart nodes after changing in step 3 & 4
       sudo tee $HOME/.relayer/config/config.yaml > /dev/null <<EOF
 global:
       api-listen-addr: :5183
-      timeout: 10s
+      timeout: 300s
       memo: $DISDCORD-ID
       light-cache-size: 20
 chains:

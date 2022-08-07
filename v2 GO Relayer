@@ -1,4 +1,5 @@
-# Setup v2 GO Relayer between Stride and GAIA
+# Guide setup v2 GO Relayer between Stride and GAIA
+
 # install GO
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
 ver="1.18.3"

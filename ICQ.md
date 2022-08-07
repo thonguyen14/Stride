@@ -11,10 +11,10 @@
 
 # Make configuration file for ICQ
 
-  cd $HOME && mkdir .icq
+    cd $HOME && mkdir .icq
   
- sudo tee $HOME/.icq/config.yaml > /dev/null <<EOF
- default_chain: STRIDE-TESTNET-2
+    sudo tee $HOME/.icq/config.yaml > /dev/null <<EOF
+    default_chain: STRIDE-TESTNET-2
  chains:
    GAIA:
      key: <your-key-name-Gaia>
@@ -86,25 +86,25 @@
 
 - Output will be as below
 
-Started V2 Go relayer.
-store/bank/key
-height parsed from GetHeightFromMetadata= 0
-store/bank/key
-height parsed from GetHeightFromMetadata= 0
-Fetching client update for height height 164764
-Fetching client update for height height 164764
-Requerying lightblock
-Requerying lightblock
-ICQ RELAYER | query.Height= 0
-ICQ RELAYER | res.Height= 164763
-ICQ RELAYER | query.Height= 0
-ICQ RELAYER | res.Height= 164763
-Send batch of 4 messages
-1 ClientUpdate message
-1 SubmitResponse message
-1 ClientUpdate message
-1 SubmitResponse message
-Sent batch of 2 (deduplicated) messages
+   Started V2 Go relayer.
+   store/bank/key
+   height parsed from GetHeightFromMetadata= 0
+   store/bank/key
+   height parsed from GetHeightFromMetadata= 0
+   Fetching client update for height height 164764
+   Fetching client update for height height 164764
+   Requerying lightblock
+   Requerying lightblock
+   ICQ RELAYER | query.Height= 0
+   ICQ RELAYER | res.Height= 164763
+   ICQ RELAYER | query.Height= 0
+   ICQ RELAYER | res.Height= 164763
+   Send batch of 4 messages
+   1 ClientUpdate message
+   1 SubmitResponse message
+   1 ClientUpdate message
+   1 SubmitResponse message
+   Sent batch of 2 (deduplicated) messages
 # To explorer check txhash 
 
 *****Thanks to VienNguyen#4040 for the support for this guide****

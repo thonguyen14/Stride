@@ -11,43 +11,43 @@
 
 # Make configuration file for ICQ
 
-    cd $HOME && mkdir .icq
+      cd $HOME && mkdir .icq
   
-    sudo tee $HOME/.icq/config.yaml > /dev/null <<EOF
-    default_chain: STRIDE-TESTNET-2
- chains:
-   GAIA:
-     key: <your-key-name-Gaia>
-     chain-id: GAIA
-     rpc-addr: http://154.12.229.177:26957
-     grpc-addr: http://154.12.229.177:9490
-     account-prefix: cosmos
-     keyring-backend: test
-     gas-adjustment: 1.2
-     gas-prices: 1uatom
-     key-directory: /root/.icq/keys
-     debug: false
-     timeout: 20s
-     block-timeout: ""
-     output-format: json
-     sign-mode: direct
-   STRIDE-TESTNET-2:
-     key: <your-key-name-Stride>
-     chain-id: STRIDE-TESTNET-2
-     rpc-addr: http://localhost:26657
-     grpc-addr: http://localhost:9090
-     account-prefix: stride
-     keyring-backend: test
-     gas-adjustment: 1.2
-     gas-prices: 1ustrd
-     key-directory: /root/.icq/keys
-     debug: false
-     timeout: 20s
-     block-timeout: ""
-     output-format: json
-     sign-mode: direct
- cl: {}
- EOF`
+      sudo tee $HOME/.icq/config.yaml > /dev/null <<EOF
+      default_chain: STRIDE-TESTNET-2
+   chains:
+     GAIA:
+       key: <your-key-name-Gaia>
+       chain-id: GAIA
+       rpc-addr: http://154.12.229.177:26957
+       grpc-addr: http://154.12.229.177:9490
+       account-prefix: cosmos
+       keyring-backend: test
+       gas-adjustment: 1.2
+       gas-prices: 1uatom
+       key-directory: /root/.icq/keys
+       debug: false
+       timeout: 20s
+       block-timeout: ""
+       output-format: json
+       sign-mode: direct
+     STRIDE-TESTNET-2:
+       key: <your-key-name-Stride>
+       chain-id: STRIDE-TESTNET-2
+       rpc-addr: http://localhost:26657
+       grpc-addr: http://localhost:9090
+       account-prefix: stride
+       keyring-backend: test
+       gas-adjustment: 1.2
+       gas-prices: 1ustrd
+       key-directory: /root/.icq/keys
+       debug: false
+       timeout: 20s
+       block-timeout: ""
+       output-format: json
+       sign-mode: direct
+   cl: {}
+   EOF`
 
 ***Edit RPC,GPRC and Port if you using your own GAIA/STRIDE nodes***
 

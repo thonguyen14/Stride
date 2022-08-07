@@ -105,4 +105,7 @@ Send batch of 4 messages
 1 SubmitResponse message
 Sent batch of 2 (deduplicated) messages
 # To explorer check txhash 
-*****
+
+*****Thanks to VienNguyen#4040 for the support for this guide****
+
+

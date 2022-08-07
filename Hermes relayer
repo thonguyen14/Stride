@@ -4,8 +4,8 @@
 
 Nếu bạn định thiết lập nút của riêng mình, hãy làm theo hướng dẫn dưới đây từ kjnode
 
-Hướng dẫn thiết lập nút Juno : [https://github.com/kj89/testnet_manuals/tree/main/juno](https://github.com/kj89/testnet_manuals/tree/main/juno)
-Hướng dẫn thiết lập nút GAIA : [https://github.com/kj89/testnet_manuals/blob/main/stride/GAIA/README.md](https://github.com/kj89/testnet_manuals/blob/main/stride/GAIA/README.md)
+Hướng dẫn thiết lập nút Juno : https://github.com/kj89/testnet_manuals/tree/main/juno
+Hướng dẫn thiết lập nút GAIA : https://github.com/kj89/testnet_manuals/blob/main/stride/GAIA/README.md
 
 Nếu không, bạn có thể sử dụng một số điểm cuối RPC công khai của GAIA hoặc Juno fullnode .
 Ở đây giả sử Stride và hermes được cài đặt trên cùng 1 vps , gaia và juno lấy điểm RPC công khai của người khác
